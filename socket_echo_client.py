@@ -103,7 +103,7 @@ try:
             #print("mrecib:",mtrad)
             # Volteamos el mesnsaje
             mtinv = mtrad[::-1]
-            txt = open("mensaje_de_vuelva.txt","w")
+            txt = open("mensaje_de_vuelta.txt","w")
             menEntrtxt = txt.write(mtinv+"\n")
             txt.close()
 
